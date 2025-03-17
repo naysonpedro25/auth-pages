@@ -1,0 +1,24 @@
+{
+  "name": "loginpage",
+  "version": "1.0.0",
+  "description": "![Design preview for the Intro component with sign up form coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "esbuild": "^0.25.1",
+    "fastify": "^5.2.1",
+    "get-tsconfig": "^4.10.0",
+    "resolve-pkg-maps": "^1.0.0",
+    "zod": "^3.24.2"
+  },
+  "scripts": {
+    "build": "tsup ./index.ts --out-dir build"
+  },
+  "devDependencies": {
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

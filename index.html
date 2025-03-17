@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css">
+
+    <title>Authenticate pages</title>
+  </head>
+  <body>
+    <main class="main">
+      <section class="left">
+        <h1 class="title">Bem-vindo ao site</h1>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. A vero
+          fugiat dolorum distinctio ea sunt praesentium, ullam culpa provident,
+          quam voluptatem laudantium nesciunt doloribus ad? Animi perferendis
+          inventore nesciunt numquam.
+        </p>
+      </section>
+      <section class="right">
+
+        <div class="title-card">
+          <p>Faça seu login para acessar sua conta.</p>
+        </div>
+
+        <div class="card-form card-register show">
+          <div class="input-box">
+            <input type="text" id="first-name-input" placeholder="Name" />
+            <input type="text" id="last-name-input" placeholder="Sobrenome" />
+            <input type="text" id="email" placeholder="E-mail" />
+            <input type="text" id="password" placeholder="Senha" />
+          </div>
+          <div class="btn-box">
+            <button class="btn-confirm btn-register">Comfirmar Registro</button>
+            <p>Já possui uma conta? <a href="#" class="login-link">Faça login aqui.</a></p>
+          </div>
+          
+        </div>
+
+        <div class="card-form card-login">
+          <div class="input-box">
+            <input type="text" id="email" placeholder="E-mail" />
+            <input type="text" id="password" placeholder="Senha" />
+          </div>
+          <div class="btn-box">
+            <button class="btn-confirm btn-login">Comfirmar Login</button>
+            <p>Não possui uma conta? <a href="#" class="register-link">Regitre-se aqui.</a></p>
+          </div>
+          
+        </div>
+        
+      </section>
+    </main>
+
+    <script src="build/index.js" type="module"></script>
+  </body>
+</html>
